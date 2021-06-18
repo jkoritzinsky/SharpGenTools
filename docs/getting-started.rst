@@ -37,7 +37,7 @@ Create a file named ``Mapping.xml`` with the following content:
 Let's go through each of these elements.
 
   * The ``config`` tag: This is the root tag for your configuration file. The ``id`` attribute uniquely identifes your config file during your build.
-  * The ``assembly`` tag: Identifies what assembl for which you are generating code.
+  * The ``assembly`` tag: Identifies what assembly for which you are generating code.
   * The ``namespace`` tag: Identifies the root namespace for code generated from this config file.
   * The ``depends`` tag: Declares dependencies on other config files. Optional, but can help ensure that all dependencies are correctly loaded. 
 
